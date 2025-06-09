@@ -1,4 +1,4 @@
-#  Next Word Predictor
+#  Next Word Predictor using LSTM and Streamlit
 
 A smart and interactive **Streamlit web app** that uses an **LSTM-based deep learning model** to predict the next word(s) in a sentence. Just enter a starting phrase and let the model continue your thought!
 
@@ -85,7 +85,7 @@ Built using:
 
 ## Author
 
-Made with ❤️ by \ **Pritam Kumar Roy**
+Made with ❤️ by **Pritam Kumar Roy**
 Connect on [LinkedIn](https://www.linkedin.com/in/pritamkumarroy/) | Follow on [GitHub](https://github.com/Pritam216)
 
 ---
