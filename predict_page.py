@@ -57,12 +57,17 @@ def predict_next_words(seed_text, num_words_to_generate, model, tokenizer, max_s
 def predict_page_function():
     # Streamlit UI
     st.title("Next Word Predictor")
-    seed_text = st.text_input("Enter seed text", "ethics of artificial intelligence")
-    num_words = st.slider("How many words to generate?", 1, 20, 5)
+    st.markdown("### **Enter Seed Text**")
+    seed_text = st.text_input("", " ")
+
+    # Number of Words Slider
+    st.markdown("### **How many words to generate?**")
+    num_words = st.slider("", 1, 20, 5)
+
     max_sequence_len = model.input_shape[1] + 1
 
     if st.button("Predict"):
         result = predict_next_words(seed_text, num_words, model, tokenizer, max_sequence_len)
-        st.write("**Generated Text:**")
-        st.write(result)
+        st.markdown("### **Generated Text:**")
+        st.markdown(f"<div style='font-size: 20px; font-weight: bold;'>{result}</div>", unsafe_allow_html=True)
 
