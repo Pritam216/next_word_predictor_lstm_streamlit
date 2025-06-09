@@ -92,4 +92,3 @@ Connect on [LinkedIn](https://www.linkedin.com/in/pritamkumarroy/) | Follow on [
 
 > ⚠️ **Note:** This app uses a pre-trained model. For best results, consider training on a domain-specific dataset.
 
-```
