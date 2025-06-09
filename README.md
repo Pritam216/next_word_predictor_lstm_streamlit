@@ -8,33 +8,6 @@ A smart and interactive **Streamlit web app** that uses an **LSTM-based deep lea
 
 ![Demo Screenshot](image.png)
 
----
-
-## 🌟 Features
-
-✨ **Deep Learning Powered**
-
-- Uses an LSTM model built with TensorFlow and Keras
-- Trained on a custom corpus to predict natural language sequences
-
-🎯 **Interactive User Interface**
-
-- Built using Streamlit for a sleek and responsive experience
-- Clean dark mode UI with modern components
-
-📝 **Text Completion Made Easy**
-
-- Enter your own seed sentence
-- Choose how many words to generate (1–20)
-- Get smart predictions instantly
-
-⚙️ **Reusable & Extendable**
-
-- Easily replace the model or tokenizer with your own
-- Great for experimenting with text generation, chatbots, and NLP research
-
----
-
 ## 📸 Preview
 
 > **Input Seed Text:**  
@@ -53,23 +26,6 @@ A smart and interactive **Streamlit web app** that uses an **LSTM-based deep lea
 | **Streamlit**          | Frontend web interface              |
 | **Pickle**             | Saving/loading model/tokenizer      |
 | **NumPy**              | Efficient numerical operations      |
-
----
-
-## 📁 Project Structure
-
-```
-
-next-word-predictor/
-├── saved\_model.pkl        # Trained Keras LSTM model (pickled)
-├── tokenizer.pkl          # Fitted tokenizer (pickled)
-├── streamlit\_app.py       # Streamlit application code
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation (you are here)
-
-```
-
----
 
 ## 🚀 How to Run Locally
 
@@ -130,15 +86,6 @@ Built using:
 * [TensorFlow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
 * [Streamlit](https://streamlit.io/)
-
----
-
-## 📃 License
-
-This project is licensed under the **MIT License**.
-Feel free to fork, modify, and use it for personal or commercial purposes.
-
----
 
 ## 👨‍💻 Author
 
