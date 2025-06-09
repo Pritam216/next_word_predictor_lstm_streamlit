@@ -2,13 +2,13 @@
 
 This is the streamlit application that is based on the topic History of Artificial Intelligence by using LSTM
 
-# 🧠 Next Word Predictor
+#  Next Word Predictor
 
 A smart and interactive **Streamlit web app** that uses an **LSTM-based deep learning model** to predict the next word(s) in a sentence. Just enter a starting phrase and let the model continue your thought!
 
 ![Demo Screenshot](image.png)
 
-## 📸 Preview
+## Preview
 
 > **Input Seed Text:**  
 > `history of artificial intelligence`
@@ -18,7 +18,7 @@ A smart and interactive **Streamlit web app** that uses an **LSTM-based deep lea
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Tool                   | Purpose                             |
 | ---------------------- | ----------------------------------- |
@@ -27,7 +27,7 @@ A smart and interactive **Streamlit web app** that uses an **LSTM-based deep lea
 | **Pickle**             | Saving/loading model/tokenizer      |
 | **NumPy**              | Efficient numerical operations      |
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. **Clone the Repository**
    ```bash
@@ -56,7 +56,7 @@ A smart and interactive **Streamlit web app** that uses an **LSTM-based deep lea
 
 ---
 
-## 📦 Sample `requirements.txt`
+## Sample `requirements.txt`
 
 You can create this file if not already present:
 
@@ -69,17 +69,17 @@ pickle-mixin
 
 ---
 
-## 💡 Use Cases
+## Use Cases
 
-* 🤖 AI writing assistants
-* ✍️ Creative writing generators
-* 🧠 NLP research experiments
-* 💬 Chatbot seed expansion
-* 📚 Educational projects to learn LSTM text generation
+* AI writing assistants
+* Creative writing generators
+* NLP research experiments
+* Chatbot seed expansion
+* Educational projects to learn LSTM text generation
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 Built using:
 
@@ -87,7 +87,7 @@ Built using:
 * [Keras](https://keras.io/)
 * [Streamlit](https://streamlit.io/)
 
-## 👨‍💻 Author
+## Author
 
 Made with ❤️ by \[Pritam Kumar Roy]
 Connect on [LinkedIn](https://www.linkedin.com/in/pritamkumarroy/) | Follow on [GitHub](https://github.com/Pritam216)
