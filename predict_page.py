@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-from tensorflow.keras.utils import pad_sequences
+from tensorflow.keras.utils import pad_sequences 
 import time
 
 def load_model():
